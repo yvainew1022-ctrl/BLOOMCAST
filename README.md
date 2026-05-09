@@ -201,14 +201,20 @@ BLOOMCAST/
 ① Install dependencies
 ```bash
 pip install pandas streamlit google-genai
+```
 
 ② Set API Key
+```bash
 export GEMINI_API_KEY="your-key"
+```
 
 ③ Run evaluation
+```bash
 python evaluate.py
+```
 
 ④ Run app
+```bash
 python -m streamlit run app.py
 ```
 
